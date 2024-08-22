@@ -73,11 +73,7 @@ export class MetricsService {
       },
     });
 
-    // Debugging logs to inspect the response
-    console.log(JSON.stringify(result, null, 2));
-
-    // Return buckets if available
-    return result.body.aggregations.gender_distribution?.buckets || [];
+    return result.body.aggregations.gender_distribution.buckets;
   }
 
   async getMaritalStatusDistribution() {
