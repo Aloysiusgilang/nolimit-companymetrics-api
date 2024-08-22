@@ -1,0 +1,649 @@
+{
+	"info": {
+		"_postman_id": "06ccb5d0-1638-434e-9be2-4c6b7a9a0453",
+		"name": "nolimit-elasticsearch",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14084020"
+	},
+	"item": [
+		{
+			"name": "count employees",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "count employee",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/metrics/count-employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"metrics",
+								"count-employees"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "5"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"5-wtTFRS9Zz/WXPdnQjflfi1TK2ZU\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 22 Aug 2024 06:13:29 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "50000"
+				}
+			]
+		},
+		{
+			"name": "average salary",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "average salary",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/metrics/average-salary",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"metrics",
+								"average-salary"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "7"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"7-I6l1HkAYM6osNSXnYtYmciLiYdY\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 22 Aug 2024 06:14:03 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "57843.9"
+				}
+			]
+		},
+		{
+			"name": "min max salary",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "min max salary",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/metrics/min-max-salary",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"metrics",
+								"min-max-salary"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "38"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"26-tCLN3AMC37zVRjnD2c/O08Zj5Ds\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 22 Aug 2024 06:14:24 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"minSalary\": 25000,\n    \"maxSalary\": 154000\n}"
+				}
+			]
+		},
+		{
+			"name": "age distribution",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/metrics/age-distribution",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"metrics",
+						"age-distribution"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "age distribution",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/metrics/age-distribution",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"metrics",
+								"age-distribution"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "276"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"114-fHP6eJ9vSrm4MtE6Q7KLNmf2yrM\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 22 Aug 2024 06:14:41 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"key\": 20,\n        \"doc_count\": 3572\n    },\n    {\n        \"key\": 25,\n        \"doc_count\": 25766\n    },\n    {\n        \"key\": 30,\n        \"doc_count\": 16066\n    },\n    {\n        \"key\": 35,\n        \"doc_count\": 2810\n    },\n    {\n        \"key\": 40,\n        \"doc_count\": 658\n    },\n    {\n        \"key\": 45,\n        \"doc_count\": 424\n    },\n    {\n        \"key\": 50,\n        \"doc_count\": 339\n    },\n    {\n        \"key\": 55,\n        \"doc_count\": 188\n    },\n    {\n        \"key\": 60,\n        \"doc_count\": 141\n    },\n    {\n        \"key\": 65,\n        \"doc_count\": 36\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "gender distribution",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/metrics/gender-distribution",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"metrics",
+						"gender-distribution"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "gender distribution",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/metrics/gender-distribution",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"metrics",
+								"gender-distribution"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "69"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"45-2S8nJKAQmKpXoi6Q3qqFc+0t9VQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 22 Aug 2024 06:27:15 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"key\": \"Male\",\n        \"doc_count\": 25083\n    },\n    {\n        \"key\": \"Female\",\n        \"doc_count\": 24917\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "marital status distribution",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/metrics/gender-distribution",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"metrics",
+						"gender-distribution"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "marital status distribution",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/metrics/marital-status-distribution",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"metrics",
+								"marital-status-distribution"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "75"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"4b-yHVqDEhvQ6xrlCu9+vUhBJQOEb0\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 22 Aug 2024 06:27:21 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"key\": \"Unmarried\",\n        \"doc_count\": 25001\n    },\n    {\n        \"key\": \"Married\",\n        \"doc_count\": 24999\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "date of joining histogram",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/metrics/date-of-joining-histogram",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"metrics",
+						"date-of-joining-histogram"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "date of joining histogram",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/metrics/date-of-joining-histogram",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"metrics",
+								"date-of-joining-histogram"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "3139"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"c43-0cymBXY1FxbrFCsbi3ts+7vZGgA\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 22 Aug 2024 06:21:24 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"key_as_string\": \"1970-01-01\",\n        \"key\": 0,\n        \"doc_count\": 1\n    },\n    {\n        \"key_as_string\": \"1971-01-01\",\n        \"key\": 31536000000,\n        \"doc_count\": 0\n    },\n    {\n        \"key_as_string\": \"1972-01-01\",\n        \"key\": 63072000000,\n        \"doc_count\": 0\n    },\n    {\n        \"key_as_string\": \"1973-01-01\",\n        \"key\": 94694400000,\n        \"doc_count\": 2\n    },\n    {\n        \"key_as_string\": \"1974-01-01\",\n        \"key\": 126230400000,\n        \"doc_count\": 3\n    },\n    {\n        \"key_as_string\": \"1975-01-01\",\n        \"key\": 157766400000,\n        \"doc_count\": 3\n    },\n    {\n        \"key_as_string\": \"1976-01-01\",\n        \"key\": 189302400000,\n        \"doc_count\": 5\n    },\n    {\n        \"key_as_string\": \"1977-01-01\",\n        \"key\": 220924800000,\n        \"doc_count\": 2\n    },\n    {\n        \"key_as_string\": \"1978-01-01\",\n        \"key\": 252460800000,\n        \"doc_count\": 7\n    },\n    {\n        \"key_as_string\": \"1979-01-01\",\n        \"key\": 283996800000,\n        \"doc_count\": 8\n    },\n    {\n        \"key_as_string\": \"1980-01-01\",\n        \"key\": 315532800000,\n        \"doc_count\": 10\n    },\n    {\n        \"key_as_string\": \"1981-01-01\",\n        \"key\": 347155200000,\n        \"doc_count\": 13\n    },\n    {\n        \"key_as_string\": \"1982-01-01\",\n        \"key\": 378691200000,\n        \"doc_count\": 9\n    },\n    {\n        \"key_as_string\": \"1983-01-01\",\n        \"key\": 410227200000,\n        \"doc_count\": 16\n    },\n    {\n        \"key_as_string\": \"1984-01-01\",\n        \"key\": 441763200000,\n        \"doc_count\": 6\n    },\n    {\n        \"key_as_string\": \"1985-01-01\",\n        \"key\": 473385600000,\n        \"doc_count\": 24\n    },\n    {\n        \"key_as_string\": \"1986-01-01\",\n        \"key\": 504921600000,\n        \"doc_count\": 16\n    },\n    {\n        \"key_as_string\": \"1987-01-01\",\n        \"key\": 536457600000,\n        \"doc_count\": 34\n    },\n    {\n        \"key_as_string\": \"1988-01-01\",\n        \"key\": 567993600000,\n        \"doc_count\": 24\n    },\n    {\n        \"key_as_string\": \"1989-01-01\",\n        \"key\": 599616000000,\n        \"doc_count\": 23\n    },\n    {\n        \"key_as_string\": \"1990-01-01\",\n        \"key\": 631152000000,\n        \"doc_count\": 33\n    },\n    {\n        \"key_as_string\": \"1991-01-01\",\n        \"key\": 662688000000,\n        \"doc_count\": 34\n    },\n    {\n        \"key_as_string\": \"1992-01-01\",\n        \"key\": 694224000000,\n        \"doc_count\": 42\n    },\n    {\n        \"key_as_string\": \"1993-01-01\",\n        \"key\": 725846400000,\n        \"doc_count\": 53\n    },\n    {\n        \"key_as_string\": \"1994-01-01\",\n        \"key\": 757382400000,\n        \"doc_count\": 57\n    },\n    {\n        \"key_as_string\": \"1995-01-01\",\n        \"key\": 788918400000,\n        \"doc_count\": 57\n    },\n    {\n        \"key_as_string\": \"1996-01-01\",\n        \"key\": 820454400000,\n        \"doc_count\": 71\n    },\n    {\n        \"key_as_string\": \"1997-01-01\",\n        \"key\": 852076800000,\n        \"doc_count\": 67\n    },\n    {\n        \"key_as_string\": \"1998-01-01\",\n        \"key\": 883612800000,\n        \"doc_count\": 70\n    },\n    {\n        \"key_as_string\": \"1999-01-01\",\n        \"key\": 915148800000,\n        \"doc_count\": 91\n    },\n    {\n        \"key_as_string\": \"2000-01-01\",\n        \"key\": 946684800000,\n        \"doc_count\": 234\n    },\n    {\n        \"key_as_string\": \"2001-01-01\",\n        \"key\": 978307200000,\n        \"doc_count\": 334\n    },\n    {\n        \"key_as_string\": \"2002-01-01\",\n        \"key\": 1009843200000,\n        \"doc_count\": 532\n    },\n    {\n        \"key_as_string\": \"2003-01-01\",\n        \"key\": 1041379200000,\n        \"doc_count\": 657\n    },\n    {\n        \"key_as_string\": \"2004-01-01\",\n        \"key\": 1072915200000,\n        \"doc_count\": 846\n    },\n    {\n        \"key_as_string\": \"2005-01-01\",\n        \"key\": 1104537600000,\n        \"doc_count\": 1416\n    },\n    {\n        \"key_as_string\": \"2006-01-01\",\n        \"key\": 1136073600000,\n        \"doc_count\": 1966\n    },\n    {\n        \"key_as_string\": \"2007-01-01\",\n        \"key\": 1167609600000,\n        \"doc_count\": 2363\n    },\n    {\n        \"key_as_string\": \"2008-01-01\",\n        \"key\": 1199145600000,\n        \"doc_count\": 2906\n    },\n    {\n        \"key_as_string\": \"2009-01-01\",\n        \"key\": 1230768000000,\n        \"doc_count\": 3559\n    },\n    {\n        \"key_as_string\": \"2010-01-01\",\n        \"key\": 1262304000000,\n        \"doc_count\": 4378\n    },\n    {\n        \"key_as_string\": \"2011-01-01\",\n        \"key\": 1293840000000,\n        \"doc_count\": 4492\n    },\n    {\n        \"key_as_string\": \"2012-01-01\",\n        \"key\": 1325376000000,\n        \"doc_count\": 4715\n    },\n    {\n        \"key_as_string\": \"2013-01-01\",\n        \"key\": 1356998400000,\n        \"doc_count\": 4775\n    },\n    {\n        \"key_as_string\": \"2014-01-01\",\n        \"key\": 1388534400000,\n        \"doc_count\": 5218\n    },\n    {\n        \"key_as_string\": \"2015-01-01\",\n        \"key\": 1420070400000,\n        \"doc_count\": 5477\n    },\n    {\n        \"key_as_string\": \"2016-01-01\",\n        \"key\": 1451606400000,\n        \"doc_count\": 5347\n    },\n    {\n        \"key_as_string\": \"2017-01-01\",\n        \"key\": 1483228800000,\n        \"doc_count\": 4\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "top interest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/metrics/date-of-joining-histogram",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"metrics",
+						"date-of-joining-histogram"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "top interest",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/metrics/top-interests",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"metrics",
+								"top-interests"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "396"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"18c-tsTgy7Q7h6F4gSbLJedmpmaI2n4\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 22 Aug 2024 06:27:27 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"key\": \"Learning A Foreign Language\",\n        \"doc_count\": 31\n    },\n    {\n        \"key\": \"Button Collecting\",\n        \"doc_count\": 27\n    },\n    {\n        \"key\": \"Puppetry\",\n        \"doc_count\": 21\n    },\n    {\n        \"key\": \"Skateboarding\",\n        \"doc_count\": 21\n    },\n    {\n        \"key\": \"Car Racing\",\n        \"doc_count\": 20\n    },\n    {\n        \"key\": \"Lacrosse\",\n        \"doc_count\": 20\n    },\n    {\n        \"key\": \"Microscopy\",\n        \"doc_count\": 20\n    },\n    {\n        \"key\": \"Piano\",\n        \"doc_count\": 20\n    },\n    {\n        \"key\": \"Weather Watcher\",\n        \"doc_count\": 20\n    },\n    {\n        \"key\": \"Collecting RPM Records\",\n        \"doc_count\": 19\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "designation distribution",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/metrics/date-of-joining-histogram",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"metrics",
+						"date-of-joining-histogram"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "designation distribution",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/metrics/designation-distribution",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"metrics",
+								"designation-distribution"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "406"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"196-GO89iP933yDkmDHlURbfcIMiFAw\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 22 Aug 2024 06:27:32 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"key\": \"Software Engineer\",\n        \"doc_count\": 30112\n    },\n    {\n        \"key\": \"Senior Software Engineer\",\n        \"doc_count\": 8601\n    },\n    {\n        \"key\": \"Team Lead\",\n        \"doc_count\": 4300\n    },\n    {\n        \"key\": \"Trainee\",\n        \"doc_count\": 4300\n    },\n    {\n        \"key\": \"Architect\",\n        \"doc_count\": 860\n    },\n    {\n        \"key\": \"Human Resource Manager\",\n        \"doc_count\": 860\n    },\n    {\n        \"key\": \"Manager\",\n        \"doc_count\": 860\n    },\n    {\n        \"key\": \"Delivery Manager\",\n        \"doc_count\": 86\n    },\n    {\n        \"key\": \"Vice President\",\n        \"doc_count\": 17\n    },\n    {\n        \"key\": \"President\",\n        \"doc_count\": 3\n    }\n]"
+				}
+			]
+		}
+	]
+}
